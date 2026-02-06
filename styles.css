@@ -1,3 +1,11 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -25,6 +33,10 @@ a {
   font-weight: bold;
 }
 
+h1 {
+  margin-left: 60px;
+}
+
 .card {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -39,15 +51,23 @@ a {
   padding: 20px;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 html,
 body {
   min-height: 100vh;
 }
 
 body {
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 main {
@@ -59,4 +79,5 @@ footer {
   background-color: #b4b4b4;
   text-align: center;
   padding: 10px;
+  width: 100%;
 }
