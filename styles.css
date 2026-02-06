@@ -51,6 +51,7 @@ body {
 }
 
 main {
+  margin: 20px;
   flex: 1;
 }
 
