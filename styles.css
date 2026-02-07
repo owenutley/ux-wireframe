@@ -1,10 +1,4 @@
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
+
 
 nav {
   position: fixed;
@@ -12,11 +6,11 @@ nav {
   left: 0;
   width: 100%;
   z-index: 1000;
-  height: 50px;
+  height: 70px;
+  background-color: #b4b4b4;
 }
 
 nav ul {
-  background-color: #b4b4b4;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -33,12 +27,15 @@ a {
   font-weight: bold;
 }
 
-h1 {
-  margin-left: 60px;
-}
-
 .card {
   border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.borderless-card {
+  border: 1px solid #cccccc00;
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
@@ -64,14 +61,14 @@ body {
 }
 
 body {
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   margin: 0;
 }
 
 main {
-  margin: 20px;
+  margin-top: 70px;
+  padding: 20px;
   flex: 1;
 }
 
